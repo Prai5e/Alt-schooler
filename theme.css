@@ -1,0 +1,82 @@
+/*Design Dark And Light Theme later later***/
+
+
+/* :root{
+    --div-background-color: blue;
+} */
+
+body{
+    /* color: rgb(124, 118, 111); */
+    margin: 0px;
+    font-family: 'Titillium Web', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    background-color: whitesmoke;
+    overflow: hidden;
+    margin: 0;
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#nav-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.nav-li{
+    display: inline;
+    margin-right: 20px;
+    padding: 2px;
+    /* margin-left: 0px; */
+}
+
+a{
+    text-decoration: none;
+    color: rgba(97, 81, 61, 0.852);
+    padding: 2px;
+}
+
+.nav-li a:hover{
+    border: 1px inset burlywood;
+    border-radius: 5px;
+    background-color: rgba(222, 184, 135, 0.067);
+}
+
+#sec{
+    position: inherit;
+    display: inline-block;
+    left: 320px;
+    margin-left: 20px;
+}
+
+
+footer{
+    margin-top: 10px;
+    position: relative;
+    bottom: 0;
+    height: 30px;
+    background-color: black;
+    padding: 5px;
+}
+
+#foot-ul{
+    float: right;
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    /* left: 0px; */
+    bottom: 12px;
+    height: 20px;
+    right: 40%;
+
+}
+
+.foot-li{
+    display: inline-block;
+}

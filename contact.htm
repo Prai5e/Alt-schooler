@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href=".\contact.css">
+    <link rel="stylesheet" href=".\theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <ul id="nav-ul">
+            <li class="nav-li"><a href="./index.htm" target="_blank">About Me</a></li>
+            <li class="nav-li"><a href="./contact.htm" target="_blank" >Contact</a></li>
+            <li class="nav-li"><a href="./register.htm" target="_blank" >Register</a></li>
+            <li class="nav-li"><a href="./login.htm" target="_blank" >Login</a></li>
+        </ul>
+    </nav>
+    <div id="main-div">
+        <form action="./validation.htm" >
+            <div>
+                <label for="name" class="label">Name</label>
+                <input type="text" name="name" id="name-id" required>
+            </div>
+            <div>
+                <label for="email" class="label">Email</label>
+                <input type="email" name="email" id="email-id" required>
+            </div>
+            <div>
+                <label for="message" class="label">Message</label>
+                <textarea id="msg-id" name="message" placeholder="Write something.."></textarea>
+            </div>
+            <div>
+                <label for="priority" class="label-1">Priority</label>
+                
+                <select name="priority" id="drop-label" required>
+                    <option value="Null" class="option"></option>
+                    <option value="critical" class="option">Critical</option>
+                    <option value="important" class="option">Important</option>
+                    <option value="normal" class="option">Normal</option>
+                    <option value="low" class="option">Low</option>
+                </select>
+            </div>
+            <div id="button">
+                <button>
+                    submit
+                </button>
+            </div>
+        </form>
+    </div>
+    <footer>
+            <ul id="foot-ul">
+            <li class="foot-li"><a href="#">LinkedIn</a></li>
+            <li class="foot-li"><a href="#">GitHub</a></li>
+            <li class="foot-li"><a href="#">Replit</a></li>
+            <li class="foot-li"><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

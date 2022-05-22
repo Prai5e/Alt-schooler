@@ -1,0 +1,79 @@
+#main-div{
+    margin:auto;
+    width: 500px;
+    height: 700px;
+    position:relative;
+}
+
+.label{
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: rgb(142, 158, 142)
+}
+
+input{
+    /* border: 0px 0px 1px 0px; */
+    border: none;
+    border-bottom: 1.5px solid gray;
+    display: block;
+    width: 500px;
+    outline: none;
+    margin-bottom:31px;
+}
+input:focus{
+    background-color: rgba(252, 246, 239, 0.319);
+}
+textarea:focus{
+    background-color: rgba(252, 246, 239, 0.319);
+}
+
+textarea{
+    width: 500px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: 15px 5px;
+    border: 2px inset;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+select{
+    margin-bottom: 7px;
+    color:rgb(76, 82, 76);
+    padding: 4px;
+    margin: 1px;
+    border: none;
+    border-bottom: 1.5px solid gray;
+    /* b */
+}
+form{
+    width: 530px;
+    /* border: 1px solid gray; */
+    box-sizing: content-box;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.label-1{
+    color: rgb(142, 158, 142);
+    margin-right: 30px;
+}
+
+#button{
+    margin-top: 30px;
+    float: right;
+}
+
+button{
+    padding:5px;
+    background-color:rgba(142, 158, 142, 0.566);
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    border: 2px inset rgb(199, 199, 151);
+    color: rgba(104, 98, 98, 0.916);
+    font-size: medium;
+}

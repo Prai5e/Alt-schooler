@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--register</title>
+    <link rel="stylesheet" href=".\theme.css">
+    <link rel="stylesheet" href=".\register.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <ul id="nav-ul">
+            <li class="nav-li"><a href="./index.htm" target="_blank">About Me</a></li>
+            <li class="nav-li"><a href="./contact.htm" target="_blank" >Contact</a></li>
+            <li class="nav-li"><a href="./register.htm" target="_blank" >Register</a></li>
+            <li class="nav-li"><a href="./login.htm" target="_blank" >Login</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div id="space"><span>Register</span></div>
+        <form action="./validation.htm">
+            <div>
+                <label for="firstname" class="label">FirstName</label>
+                <input type="text" name="firstname" id="l1" required>
+            </div>            
+            <div>
+                <label for="lastname" class="label">LastName</label>
+                <input type="text" name="lastname" id="l2" required>
+            </div>
+            <div>
+                <label for="tel" class="label">Phone</label>
+                <input type="tel" name="tel" id="l3">
+            </div>
+            <div id="gender-div">
+                <label for="gender" class="label-1" id="except">Gender</label>
+                <select name="gender" id="l4">
+                    <option value="null"></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div>
+                <label for="country" class="label">Country</label>
+                <input type="text" name="country" id="l5">
+            </div>
+            <div>
+                <label for="area" class="label">State/Province</label>
+                <textarea name="area" placeholder="State/Province" id="l6"></textarea>
+            </div>
+            <div>
+                <label for="username" class="label">UseerName</label>
+                <input type="text" name="username" id="l7" required>
+            </div>
+            <div>
+                <label for="password" class="label">Password</label>
+                <input type="password" name="password" id="l8" placeholder="********" required>
+            </div>
+            <div>
+                <label for="2-password" class="label">Confirm Password</label>
+                <input type="password" name="2-password" id="l9" placeholder="********" required>
+            </div>
+            <div>
+               <button>
+                    Submit
+               </button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <ul id="foot-ul">
+            <li class="foot-li"><a href="#">LinkedIn</a></li>
+            <li class="foot-li"><a href="#">GitHub</a></li>
+            <li class="foot-li"><a href="#">Replit</a></li>
+            <li class="foot-li"><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

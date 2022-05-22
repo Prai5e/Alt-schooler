@@ -1,0 +1,77 @@
+.label{
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: rgb(142, 158, 142)
+}
+
+input{
+    /* border: 0px 0px 1px 0px; */
+    border: none;
+    border-bottom: 1.5px solid gray;
+    display: block;
+    height: 20px;
+    width: 500px;
+    outline: none;
+    margin-bottom:31px;
+}
+input:focus{
+    background-color: rgba(252, 246, 239, 0.319);
+}
+
+textarea:focus, select:focus{
+    background-color: rgba(252, 246, 239, 0.319);
+}
+
+form{
+    width: 600px;
+    margin: auto;
+}
+.label-1{
+    color: rgb(142, 158, 142);
+    margin-right: 30px;
+    padding: 10px;
+}
+
+select{
+    margin-bottom: 7px;
+    color:rgb(76, 82, 76);
+    padding: 4px;
+    margin: 1px;
+    border: none;
+    border-bottom: 1.5px solid gray;
+    /* b */
+}
+#gender-div{
+    margin-bottom: 30px;
+}
+textarea{
+    width: 500px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: 15px 5px;
+    border: 2px inset;
+    margin-bottom: 30px;
+    outline: none;
+}
+#space{
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 40px;
+}
+span{
+    color: rgb(95, 90, 82);
+    margin: auto;
+}
+button{
+    background-color:rgba(28, 34, 28, 0.993);
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    border: 2px inset rgb(199, 199, 151);
+    color: rgba(189, 179, 179, 0.916);
+    font-size: medium;
+}
+footer{
+    margin-bottom: 20px;
+}
