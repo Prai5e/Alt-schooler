@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            height: 800px;
+        }
+        input{
+            padding: 10px;
+            border: 0px ;
+            text-align: right;
+            width: 330px;
+            margin-top: 3px;
+            height: 70px;
+            box-sizing: border-box;
+        }
+
+        #main-container{
+            position: relative;
+            left: 32vw;
+            top: 32vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: burlywood;
+            width: 354px;
+            height: 432px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .flex-item{
+            width: 70px;
+            height: 50px;
+            padding: 3px;
+            border: 2px outset black;
+            text-align: center;
+            /* display: flex; */
+            /* align-items: center; */
+            text-align: center;
+            margin: 2px;
+            /* box-sizing: border-box; */
+        
+        }
+        .num, #dot{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+      
+        .operand, .spec{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            /* font-weight: bold; */
+        }
+       
+        #r1, #r2, #r3, #r4, #r5 {
+            display: flex;
+            /* margin: 7px; */
+        }
+        #space{
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div id="disp"><input type="text" readonly placeholder="{solve}"></div>
+        <div id="space"></div>
+            <div id="r1">
+            <div class="flex-item spec r1">A</div>
+            <div class="flex-item operand r1">*</div>
+            <div class="flex-item operand r1">/</div>
+            <div class="flex-item spec r1">c</div>
+            </div>
+            <div id="r2">
+            <div class="flex-item num r2">1</div>
+            <div class="flex-item num r2">2</div>
+            <div class="flex-item num r2">3</div>
+            <div class="flex-item r2 operand">-</div>
+            </div>
+            <div id="r3">
+            <div class="flex-item num r3">4</div>
+            <div class="flex-item num r3">5</div>
+            <div class="flex-item num r3">6</div>
+            <div class="flex-item r3 operand">+</div>
+            </div> 
+            <div id="r4">
+            <div class="flex-item r4 num">7</div>
+            <div class="flex-item r4 num">8</div>
+            <div class="flex-item r4 num">9</div>
+            <div class="flex-item r4 operand">%</div>
+            </div> 
+            <div id="r5">
+            <div class="flex-item r5 spec">Edit</div>
+            <div class="flex-item r5 num">0</div>
+            <div class="flex-item r5 operand" id="dot">.</div>
+            <div class="flex-item r5 operand">=</div>
+            </div>
+    </div>
+</body>
+</html>
