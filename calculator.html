@@ -26,7 +26,13 @@
             height: 70px;
             ;
         }
-
+        button{
+            background-color: transparent;
+            border: none;
+            font-family: inherit;
+            width: 100%;
+            height: 100%;
+        }
         #div{
             height: 20px;
         }
@@ -48,10 +54,9 @@
             border: 2px outset black;
         }
 
-        .num, #dot{
+        .num>button, #dot{
             font-size: 20px;
             font-weight: bold;
-
         }
 
         .operator{
@@ -75,37 +80,38 @@
             <tbody>
                 <tr colspan="6" id="div"></tr>
                 <tr>
-                    <td>A</td>
-                    <td class="operator tae">*</td>
-                    <td class="operator">/</td>
-                    <td class="operator">C</td>
+                    <td><button>A</button></td>
+                    <td class="operator tae"><button>*</button></td>
+                    <td class="operator"><button>/</button></td>
+                    <td class="operator"><button>C</button></td>
                 </tr>
                 <tr>
-                    <td class="num">1</td>
-                    <td class="num">2</td>
-                    <td class="num">3</td>
-                    <td class="operator">-</td>
+                    <td class="num"><button>1</button></td>
+                    <td class="num"><button>2</button></td>
+                    <td class="num"><button>3</button></td>
+                    <td class="operator"><button>-</button></td>
                 </tr>
                 <tr>
-                    <td class="num">4</td>
-                    <td class="num">5</td>
-                    <td class="num">6</td>
-                    <td class="operator">+</td>
+                    <td class="num"><button>4</button></td>
+                    <td class="num"><button>5</button></td>
+                    <td class="num"><button>6</button></td>
+                    <td class="operator"><button>+</button></td>
                 </tr>
                 <tr>
-                    <td class="num">7</td>
-                    <td class="num">8</td>
-                    <td class="num">9</td>
-                    <td class="operator">%</td>
+                    <td class="num"><button>7</button></td>
+                    <td class="num"><button>8</button></td>
+                    <td class="num"><button>9</button></td>
+                    <td class="operator"><button>%</button></td>
                 </tr>
                 <tr>
-                    <td>Edit</td>
-                    <td class="num">0</td>
-                    <td id="dot">.</td>
-                    <td class="operator">=</td>
+                    <td><button>Edit</button></td>
+                    <td class="num"><button>0</button></td>
+                    <td id="dot"><button>.</button></td>
+                    <td class="operator"><button>=</button></td>
                 </tr>
             </tbody>
         </table>
     </div>
 </body>
+<script src="./calculator.js" dfer></script>
 </html>
